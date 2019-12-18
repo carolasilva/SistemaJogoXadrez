@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77abfcc-e1b1-45ed-b7e0-9a7de01a8769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Bishop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Knight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/chess/ChessMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/chess/ChessMatch.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +93,7 @@
       <updated>1576517801114</updated>
       <workItem from="1576517804195" duration="7025000" />
       <workItem from="1576581079901" duration="7337000" />
-      <workItem from="1576665878913" duration="10720000" />
+      <workItem from="1576665878913" duration="11261000" />
     </task>
     <task id="LOCAL-00001" summary="Class Postion created">
       <created>1576518232446</created>
@@ -198,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576678047721</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Bishop moves implemented">
+      <created>1576678511138</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1576678511138</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +253,7 @@
     <MESSAGE value="Check mate logic" />
     <MESSAGE value="Piece move count" />
     <MESSAGE value="Pawn moves implemented" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pawn moves implemented" />
+    <MESSAGE value="Bishop moves implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bishop moves implemented" />
   </component>
 </project>
