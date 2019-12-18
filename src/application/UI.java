@@ -47,7 +47,7 @@ class UI {
         for(int i=0; i<pieces.length; i++) {
             System.out.print((pieces.length - i) + " ");
             for(int j=0; j<pieces[0].length; j++) {
-                printPiece(pieces[i][j]);
+                printPiece(pieces[i][j], false);
             }
             System.out.println();
         }
@@ -58,15 +58,18 @@ class UI {
         System.out.println();
     }
 
-    private static void printPiece (ChessPiece piece) {
+    private static void printPiece (ChessPiece piece, boolean background) {
+        if (background)
+            System.out.print(ANSI_BLUE_BACKGROUND);
+
         if (piece == null)
-            System.out.print("-");
+            System.out.print("-" + ANSI_RESET);
         else {
             if (piece.getColor() == Color.WHITE) {
-                System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
+                System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             }
             else {
-                System.out.print(ANSI_BLACK + piece + ANSI_RESET);
+                System.out.print(ANSI_YELLOW + piece + ANSI_RESET);
             }
         }
         System.out.print(" ");
@@ -75,5 +78,20 @@ class UI {
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
+    }
+
+    public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
+        for(int i=0; i<pieces.length; i++) {
+            System.out.print((pieces.length - i) + " ");
+            for(int j=0; j<pieces[0].length; j++) {
+                printPiece(pieces[i][j], possibleMoves[i][j]);
+            }
+            System.out.println();
+        }
+
+        System.out.print("  ");
+        for (int i=0; i<pieces[0].length; i++)
+            System.out.print(alphabet[i] + " ");
+        System.out.println();
     }
 }
