@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77abfcc-e1b1-45ed-b7e0-9a7de01a8769" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Bishop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,7 +91,7 @@
       <updated>1576517801114</updated>
       <workItem from="1576517804195" duration="7025000" />
       <workItem from="1576581079901" duration="7337000" />
-      <workItem from="1576665878913" duration="10184000" />
+      <workItem from="1576665878913" duration="10720000" />
     </task>
     <task id="LOCAL-00001" summary="Class Postion created">
       <created>1576518232446</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576677208204</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Pawn moves implemented">
+      <created>1576678047721</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1576678047721</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +243,7 @@
     <MESSAGE value="Check logic" />
     <MESSAGE value="Check mate logic" />
     <MESSAGE value="Piece move count" />
-    <option name="LAST_COMMIT_MESSAGE" value="Piece move count" />
+    <MESSAGE value="Pawn moves implemented" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pawn moves implemented" />
   </component>
 </project>
