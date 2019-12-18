@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f77abfcc-e1b1-45ed-b7e0-9a7de01a8769" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chess/pieces/Pawn.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessPiece.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +91,7 @@
       <updated>1576517801114</updated>
       <workItem from="1576517804195" duration="7025000" />
       <workItem from="1576581079901" duration="7337000" />
-      <workItem from="1576665878913" duration="9548000" />
+      <workItem from="1576665878913" duration="10184000" />
     </task>
     <task id="LOCAL-00001" summary="Class Postion created">
       <created>1576518232446</created>
@@ -187,7 +184,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576674980653</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Piece move count">
+      <created>1576677208204</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576677208204</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +235,7 @@
     <MESSAGE value="Handling captured pieces" />
     <MESSAGE value="Check logic" />
     <MESSAGE value="Check mate logic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Check mate logic" />
+    <MESSAGE value="Piece move count" />
+    <option name="LAST_COMMIT_MESSAGE" value="Piece move count" />
   </component>
 </project>
