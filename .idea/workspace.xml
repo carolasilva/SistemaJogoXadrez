@@ -3,10 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f77abfcc-e1b1-45ed-b7e0-9a7de01a8769" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/chess/ChessMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/chess/ChessMatch.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/application/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/application/Program.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/application/Program.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/application/UI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjetoJogoXadrez/application/UI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/application/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/application/UI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chess/pieces/King.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chess/pieces/King.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="581c621b-a3d7-445c-8095-7a909039fe69" />
   </component>
   <component name="ProjectId" id="1V4gUyo8d1iFoqIBO7hV16G39sC" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -91,7 +94,7 @@
       <updated>1576517801114</updated>
       <workItem from="1576517804195" duration="7025000" />
       <workItem from="1576581079901" duration="7337000" />
-      <workItem from="1576665878913" duration="1149000" />
+      <workItem from="1576665878913" duration="2279000" />
     </task>
     <task id="LOCAL-00001" summary="Class Postion created">
       <created>1576518232446</created>
@@ -142,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576585164912</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Printing possible moves">
+      <created>1576667158289</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576667158289</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +190,7 @@
     <MESSAGE value="BoardException and defensive programming" />
     <MESSAGE value="Moving pieces" />
     <MESSAGE value="Handling exceptions and clearing screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Handling exceptions and clearing screen" />
+    <MESSAGE value="Printing possible moves" />
+    <option name="LAST_COMMIT_MESSAGE" value="Printing possible moves" />
   </component>
 </project>

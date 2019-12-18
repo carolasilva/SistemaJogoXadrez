@@ -58,6 +58,21 @@ class UI {
         System.out.println();
     }
 
+    public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
+        for(int i=0; i<pieces.length; i++) {
+            System.out.print((pieces.length - i) + " ");
+            for(int j=0; j<pieces[0].length; j++) {
+                printPiece(pieces[i][j], possibleMoves[i][j]);
+            }
+            System.out.println();
+        }
+
+        System.out.print("  ");
+        for (int i=0; i<pieces[0].length; i++)
+            System.out.print(alphabet[i] + " ");
+        System.out.println();
+    }
+
     private static void printPiece (ChessPiece piece, boolean background) {
         if (background)
             System.out.print(ANSI_BLUE_BACKGROUND);
@@ -78,20 +93,5 @@ class UI {
     public static void clearScreen() {
         System.out.print("\033[H\033[2J");
         System.out.flush();
-    }
-
-    public static void printBoard(ChessPiece[][] pieces, boolean[][] possibleMoves) {
-        for(int i=0; i<pieces.length; i++) {
-            System.out.print((pieces.length - i) + " ");
-            for(int j=0; j<pieces[0].length; j++) {
-                printPiece(pieces[i][j], possibleMoves[i][j]);
-            }
-            System.out.println();
-        }
-
-        System.out.print("  ");
-        for (int i=0; i<pieces[0].length; i++)
-            System.out.print(alphabet[i] + " ");
-        System.out.println();
     }
 }
