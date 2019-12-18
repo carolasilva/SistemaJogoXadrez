@@ -87,7 +87,7 @@ class UI {
         printCapturedPieces(captured);
         System.out.println();
         System.out.println("Turn: " + chessMatch.getTurn());
-        if (!chessMatch.isCheckMate()) {
+        if (chessMatch.isNotCheckMate()) {
             System.out.println("Waiting player: " + chessMatch.getCurrentPlayer());
             if (chessMatch.isCheck())
                 System.out.println("CHECK!");
